@@ -1,0 +1,1 @@
+optimize table {{ table }} final;

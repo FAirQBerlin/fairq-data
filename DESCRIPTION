@@ -1,0 +1,26 @@
+Package: fairqData
+Title: Data Cleanup / generic ETLs for FAirQ
+Version: 23.12.2
+Authors@R:
+    person("Milan", "Flach", , "milan.flach@inwt-statistics.de", role = c("aut", "cre"))
+Description: Cleanup fairq data.
+License: file LICENSE
+Imports:
+    arrow,
+    dplyr,
+    dbtools,
+    fairqDbtools,
+    futile.logger,
+    jsonlite,
+    modules
+Suggests:
+    INWTUtils,
+    lintr,
+    R.utils,
+    testthat (>= 3.1.3),
+    unix
+LazyData: true
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
